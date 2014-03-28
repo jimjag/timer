@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3568A343089007E0007DF4CE /* asf_logo.eps in Resources */ = {isa = PBXBuildFile; fileRef = 3568A342089007E0007DF4CE /* asf_logo.eps */; };
 		359078BD088FEEAD0009641F /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359078BC088FEEAD0009641F /* TimerController.m */; };
+		38556DE418E5FCCF00270989 /* sponsor-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 38556DE318E5FCCF00270989 /* sponsor-logo.png */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -28,6 +29,7 @@
 		3568A342089007E0007DF4CE /* asf_logo.eps */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = asf_logo.eps; sourceTree = "<group>"; };
 		359078BB088FEEAD0009641F /* TimerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerController.h; sourceTree = "<group>"; };
 		359078BC088FEEAD0009641F /* TimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerController.m; sourceTree = "<group>"; };
+		38556DE318E5FCCF00270989 /* sponsor-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sponsor-logo.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5948CC3128350C300274CBB /* FacebookLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FacebookLogo.jpg; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				C5948CC3128350C300274CBB /* FacebookLogo.jpg */,
+				38556DE318E5FCCF00270989 /* sponsor-logo.png */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
@@ -148,9 +151,16 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
 			buildConfigurationList = 359078B1088FEE240009641F /* Build configuration list for PBXProject "Timer" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Timer */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -166,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				38556DE418E5FCCF00270989 /* sponsor-logo.png in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				3568A343089007E0007DF4CE /* asf_logo.eps in Resources */,
 				C5948CC4128350C300274CBB /* FacebookLogo.jpg in Resources */,
@@ -209,9 +220,9 @@
 		359078AE088FEE240009641F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -230,8 +241,8 @@
 		359078AF088FEE240009641F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Timer_Prefix.pch;
@@ -249,6 +260,7 @@
 		359078B0088FEE240009641F /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Timer_Prefix.pch;
@@ -264,6 +276,7 @@
 		359078B2088FEE240009641F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
