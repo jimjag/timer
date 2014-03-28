@@ -3,7 +3,7 @@
 //  Timer
 //
 //  Created by Wilfredo Sánchez on 7/21/05.
-//  Copyright 2005 The Apache Software Foundation. All rights reserved.
+//  Copyright 2005-2014 The Apache Software Foundation. All rights reserved.
 //
 
 #import "TimerController.h"

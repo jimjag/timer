@@ -3,7 +3,7 @@
 //  Timer
 //
 //  Created by Wilfredo S‡nchez on 7/21/05.
-//  Copyright __MyCompanyName__ 2005. All rights reserved.
+//  Copyright 2005-2014 The Apache Software Foundation. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
